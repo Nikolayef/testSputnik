@@ -1,0 +1,31 @@
+.app {
+  margin: 20px auto;
+  font-size: 16px;
+  width: 90vw;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.productList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (min-width: 500px) {
+  .productList {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
